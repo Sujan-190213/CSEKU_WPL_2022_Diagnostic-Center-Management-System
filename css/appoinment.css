@@ -1,0 +1,50 @@
+.header {
+  text-align: center;
+  color: green;
+}
+
+img {
+  height: 250px;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div {
+  text-align: center;
+}
+
+body {
+  background-image: url(../resource/appointment_bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+}
+
+/* .header{
+	text-align: center;
+	color: green;
+}
+button{
+color: blue;
+}
+img{
+	height: 250px;
+	width: 350px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+div{
+	text-align: center;
+}
+
+body{
+	background-color: #f2f2f2;
+}
+a
+{
+	text-decoration: none;
+} */

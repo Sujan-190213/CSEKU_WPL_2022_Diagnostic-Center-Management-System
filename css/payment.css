@@ -1,0 +1,27 @@
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 500px;
+}
+
+.image {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 200px;
+}
+
+h3 {
+  color: red;
+}
+
+span {
+  color: green;
+}
+a {
+  text-decoration: none;
+}

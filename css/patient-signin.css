@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cointainersignin {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: linear-gradient(
+      rgba(191, 249, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(../resource/0806.jpg_wh300.jpg);
+  color: rgba(0, 0, 0, 0.662);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardsi {
+  width: 350px;
+  height: 400px;
+  box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+}
+
+.inner-boxsi {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.card-fornti,
+.card-backi {
+  position: absolute;
+  width: 100%;
+  height: 420px;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  padding: 25px;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+
+.card-backi {
+  transform: rotateY(180deg);
+}
+
+.cardsi h1 {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input_boxi {
+  width: 100%;
+  background: transparent;
+  border: 1px solid rgb(0, 77, 81);
+  margin: 2px 0;
+  height: 22px;
+  border-radius: 20px;
+  padding: 0 0px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  color: #fff;
+}
+
+.input_boxi1 {
+  width: 30px;
+  background: transparent;
+  border: 1px solid #fff;
+  margin: 0 0;
+  height: 15px;
+  border-radius: 20px;
+  padding: 0 0px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  color: #fff;
+}
+.input_boxi2 {
+  width: 30%;
+  background: transparent;
+  border: 2px solid rgb(140, 31, 218);
+  margin-left: 100px;
+  height: 35px;
+  border-radius: 20px;
+  padding: 0 0px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  color: rgb(185, 34, 34);
+}
+
+.submiti {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.home {
+  text-align: center;
+  color: rgb(253, 0, 8);
+  text-decoration: none;
+}
+
+.input_boxh {
+  width: 100%;
+  background: transparent;
+  border: 1px solid rgb(240, 210, 210);
+  position: relative;
+  height: 55px;
+  border-radius: 20px;
+  padding: 0 0px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.signUp {
+  color: #ff5733;
+  height: 50px;
+  width: 200px;
+}
+
+label {
+  color: rgba(255, 255, 255, 0.989);
+}
+a {
+  text-decoration: none;
+  height: 50px;
+  width: 200px;
+}
+
+.error{
+  color: red;
+  text-align: center;
+}
+.success{
+  color: green;
+  text-align: center;
+}
+}
